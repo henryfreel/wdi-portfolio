@@ -64,24 +64,16 @@ body {
   	margin-bottom: -40px;
 }*/
 
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 600px;
+}
 
+.jumbotron h1 {
+  text-align: center;
+  color: red;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.jumbotron h4 {
+  text-align: center;
+}
