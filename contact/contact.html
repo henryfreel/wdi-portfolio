@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <!-- set viewport to device width to allow responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- custom styles (always require after Bootstrap) -->
+  <link rel="stylesheet" href="../styles.css">
+
+  <script src="../script.js"></script>
+
+  <title>Bootstrap Boilerplate</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+
+    <div class="container-fluid navbar-white">
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="../index.html">Henry Freel's WDI Portfolio</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Blog<meta></a></li>
+          <li class="active"><a href="#">Conatct</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+
+    </div>
+  
+  </nav>
+
+  <div class="container">
+    <form>
+
+      <div class="row">
+        <div class="form-group col-lg-8 col-lg-offset-2">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" id="InputEmail" class="form-control input-lg" placeholder="Email">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-lg-8 col-lg-offset-2">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" id="InputPassword" class="form-control  input-lg" placeholder="Password">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="inputs col-lg-8 col-lg-offset-2">
+          <label for="exampleInput1">Message</label>
+          <textarea id="InputEmail" class="form-control input-lg" rows="3" placeholder="Message"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <button id="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>

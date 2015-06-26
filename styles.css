@@ -1,72 +1,101 @@
-body {
-	padding-top: 70px;
-	background-color: #F8F8F8;
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url(assets/fonts/proxima/ProximaNova-Bold.otf);
 }
 
-.navbar-default {
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url(assets/fonts/proxima/ProximaNova-Regular.otf);
+}
 
-	height: 50px;
+@font-face {
+  font-family: 'ProximaNova-RegularIt';
+  src: url(assets/fonts/proxima/ProximaNova-RegularIt.otf);
+}
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url(assets/fonts/proxima/ProximaNova-RegularIt.otf);
+}
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url(assets/fonts/proxima/ProximaNova-Light.otf);
+}
+
+@font-face {
+  font-family: 'ProximaNova-LightIt';
+  src: url(assets/fonts/proxima/ProximaNova-LightIt.otf);
+}
+
+body {
+	padding-top: 81px;
+	background-color: #F8F8F8;
+	font-family: 'ProximaNova-Regular';
+}
+
+.navbar-fixed-top .navbar-brand { 
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+}
+
+.navbar-fixed-top .navbar-right a {
+	margin-top: 15px;
+}
+
+.navbar-fixed-top .navbar-right {
+	padding-right: 30px;
 }
 
 .navbar-white {
 	background-color: #fff;
 }
 
-.row-same-height {
-  display: table;
-  width: 100%;
-  /* fix overflow */
-  table-layout: fixed;
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 500px;
 }
 
-.card {
+.jumbotron h1 {
+	text-align: center;
+	color: blue;
+}
+
+.jumbotron h4 {
+	text-align: center;
+}
+
+.project-content {
+	height: 200px;
 	background-color: #fff;
 	border: 1px solid #e7e7e7;
-	border-radius: 5px;
-	box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+	margin-bottom: 20px;
 	overflow: hidden;
+	border-radius: 6px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.card-img {
-	background-color: #111;
-	background-size: cover;
-	/*width: 100%;*/
-	height: 200px;
+.project-preview h2 {
+	font-family: 'ProximaNova-Bold';
+	color: #fff;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	margin-top: 75px;
 }
 
-.card-content {
-	padding: 15px;
-	height: 150px;
-	padding-top: 0;
+/*Contact Page*/
+
+input {
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
 }
 
-/*.hide-content {
-	width: 100%;
-	height: 60px;
-	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%),rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-	z-index: 1;
-	/*background: red;*/
-	position: relative;
-    bottom: 0;
-    left: 0;
-}*/
-
-/*.card p {
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-  	-webkit-box-orient: vertical;
-  	margin-bottom: -40px;
-}*/
-
-
-
-
+textarea {
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+}
 
 
 
